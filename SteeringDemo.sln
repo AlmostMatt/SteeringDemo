@@ -1,14 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{757CAA8F-30A2-ED6C-4029-4DA5597FA5F1}") = "SteeringDemo", "Assembly-CSharp.csproj", "{75B2DA4E-34BF-81E3-19D1-81E72B43C41D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{75B2DA4E-34BF-81E3-19D1-81E72B43C41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B2DA4E-34BF-81E3-19D1-81E72B43C41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B2DA4E-34BF-81E3-19D1-81E72B43C41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B2DA4E-34BF-81E3-19D1-81E72B43C41D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
