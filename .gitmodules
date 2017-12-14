@@ -1,0 +1,3 @@
+[submodule "Assets/UnityBaseCode"]
+	path = Assets/UnityBaseCode
+	url = https://github.com/AlmostMatt/UnityBaseCode
