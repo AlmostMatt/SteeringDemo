@@ -7,7 +7,7 @@ public class PursuingUnit : MonoBehaviour {
 
 	void Start () {
 		Steering steering = GetComponent<Steering>();
-		steering.setSpeed(3f, 12f);
+		steering.setSpeed(5f, 16f);
 		steering.addBehaviour(3f, new WallAvoidance());
 		steering.addBehaviour(1f, new Pursue(target));
 	}

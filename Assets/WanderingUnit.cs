@@ -8,5 +8,6 @@ public class WanderingUnit : MonoBehaviour {
 		steering.setSpeed(3f, 12f);
 		steering.addBehaviour(3f, new WallAvoidance());
 		steering.addBehaviour(1f, new Wander());
+		steering.addBehaviour(2f, new UnalignedCollisionAvoidance());
 	}
 }
