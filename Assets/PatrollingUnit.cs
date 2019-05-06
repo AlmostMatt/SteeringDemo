@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityBaseCode.Steering;
 
 public class PatrollingUnit : MonoBehaviour {
 	public List<Vector2> wayPoints = new List<Vector2>();

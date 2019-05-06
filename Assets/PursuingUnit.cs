@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityBaseCode.Steering;
 
 public class PursuingUnit : MonoBehaviour {
 	public Steering target;
